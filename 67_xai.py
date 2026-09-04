@@ -671,15 +671,5 @@ try:
 except ImportError:
     pass
 
-"""## Interpretation rules for the thesis
 
-- Use the **232-record master dataset** to document screening, eligibility refinement, and auditability.
-- Use the **focused eligible subset** for the primary evidence synthesis.
-- Report `Yes`, `No`, and `Unclear` separately for clinician validation and clinical-translation outcomes.
-- Do not interpret a high classifier AUC/accuracy as evidence of clinical validation.
-- Do not infer clinician validation from physician-generated diagnostic labels alone.
-- Do not use the Fisher/chi-square results as causal evidence; they are exploratory associations within the included literature.
-- If performance values are heterogeneous by disease/task/dataset, report median/IQR descriptively rather than pooling them.
-- The strongest conclusions should concern the **frequency and rigor of explainability evaluation and clinical validation**, not only predictive performance.
 
-"""
